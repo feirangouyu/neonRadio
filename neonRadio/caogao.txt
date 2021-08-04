@@ -1,0 +1,33 @@
+歌单页面：
+vuex数据存储
+1.当前播放列表id [] 
+songPlayIdList
+2.当前播放歌曲信息 {}
+songPlayInfo
+3.当前播放歌曲在列表里的下标
+songPlayIndex
+
+全局功能：
+2.实现播放暂停
+3.实现上下首切换
+4.更改歌曲播放模式
+5.收藏至歌单（支持多首歌曲一起收藏）
+
+页面1（歌曲播放页面）songPlayPage
+数据：songPlayInfo
+功能：
+全局功能2 点击实现暂停播放 
+全局功能3 点击实现上下首切换
+全局功能4 点击实现更改歌曲播放模式
+全局功能5 点击爱心，实现收藏至喜爱歌单
+
+页面2（歌曲评论页面）songCommentPage
+
+
+组件1 （主页面底部播放器） playerBottom
+
+组件2 （播放列表）playeListBox
+
+组件3 （歌曲操作弹窗） songOperationBox
+
+
